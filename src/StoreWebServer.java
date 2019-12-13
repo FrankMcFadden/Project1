@@ -44,7 +44,7 @@ public class StoreWebServer {
         String url = "jdbc:sqlite:" + dbfile;
         try {
             Connection conn = DriverManager.getConnection(url);
-
+// chillin right here is the code for sql interaction
             String sql = "SELECT * FROM Products WHERE ProductID = " + Integer.toString(id);
             Statement stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(sql);
