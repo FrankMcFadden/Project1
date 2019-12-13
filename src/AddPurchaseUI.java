@@ -7,7 +7,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.FocusEvent;
 import java.awt.event.FocusListener;
 import java.util.Calendar;
-
+// add purchases
 public class AddPurchaseUI {
     public JFrame view;
 
