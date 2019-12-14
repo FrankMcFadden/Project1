@@ -16,7 +16,7 @@ public interface IDataAdapter {
     public static final int CUSTOMER_SAVED_OK = 600;
     public static final int CUSTOMER_DUPLICATE_ERROR = 601;
 
-
+//connect
     public int connect(String dbfile);
     public int disconnect();
 
