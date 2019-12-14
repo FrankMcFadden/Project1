@@ -14,7 +14,7 @@ public class MainUI {
 
     public MainUI() {
         this.view = new JFrame();
-
+//jframe
         view.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         view.setTitle("Store Management System");
         view.setSize(1000, 600);
